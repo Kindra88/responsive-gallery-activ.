@@ -1,60 +1,76 @@
 .container{
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    text-align: center;
-   margin:40px 120px 50px 120px;
+   margin:40px 50px 50px 50px;
+   
+}
+
+.box1-container, .box2-container, .box3-container, .box4-container, .box5-container{
+   width: 600px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 .box1-container{
    background-color:greenyellow;
-   max-width: 600px;
-   height: auto;
+   flex-wrap: wrap;
+   border: dashed;
+   margin-bottom: 50px;
 }
 
 .box1-container img{
    max-width: 300px;
-   height: auto;
+
 }
 
 .box2-container{
   background-color:crimson; 
-  max-width: 600px;
-  height: auto;
+  border-style: groove;
+  border-width: 15px;
+  border-color: darkblue;
+  
+  margin-bottom: 50px;
+  
 }
 
 .box2-container img{
    max-width: 300px;
-   height: auto;
+   border-style: double;
+   border-width: 5px;
+   border-color: darkblue;
 }
+
 
 .box3-container{
    background-color: blue;
-   max-width: 600px;
    
 }
 
 .box3-container img{
    max-width: 300px;
-     height: auto;
+    
 }
 
 .box4-container{
    background-color: aquamarine;
-   max-width: 600px;
+  margin-bottom: 50px;
 }
 .box4-container img{
-   max-width: 300px;
-   height: auto;
+   max-width: 400px;
+   height: 400px;
 }
 
 .box5-container{
    background-color: chartreuse;
    max-width: 600px;
+   gap: 50px;
 }
 
 .box5-container img{
    max-width: 300px;
-   height: auto;
+   height: 400px;
+
 }
