@@ -1,0 +1,29 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin:140px 120px 50px 120px;
+}
+
+.box-container{
+   background-color: rgb(10, 100, 178);
+}
+
+.box2-container{
+  background-color:crimson ; 
+}
+
+.box3-container{
+   background-color: blue;
+}
+
+.box4-container{
+   background-color: aquamarine;
+}
+
+.box5-container{
+   background-color: chartreuse;
+   
+}
